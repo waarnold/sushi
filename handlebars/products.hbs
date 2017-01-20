@@ -1,0 +1,10 @@
+{{#each products}}
+<li data-id='{{id}}'>
+  <a href='/menu/{{id}}'>
+    <img src='/images/{{image}}'>
+    <h2>{{name}}</h2>
+    <p>${{price}}</p>
+  </a>
+  <button>Add to Cart</button>
+</li>
+{{/each}}

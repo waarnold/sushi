@@ -1,0 +1,229 @@
+[{
+  "name": "Sashimi Salad",
+  "description": "Organic greens topped with fresh sashimi, wasabi soy vinaigrette.",
+  "image": "sashimi-salad.jpg",
+  "price": 12,
+  "nutrition": {
+    "protein": 2.9156,
+    "fat": 2.4396,
+    "carbohydrates": 2.4396,
+    "energy": 17.5775,
+    "sugar": 0.3738
+  }
+}, {
+  "name": "Chirashi Sushi",
+  "description": "Sushi bar variety with sushi rice.",
+  "image": "chirashi-sushi.jpg",
+  "price": 21,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Seaweed Salad",
+  "description": "A nice seaweed salad.",
+  "image": "seaweed-salad.jpg",
+  "price": 17,
+  "nutrition": {
+    "protein": 0.229,
+    "fat": 2.2852,
+    "carbohydrates": 2.2852,
+    "energy": 5.1003,
+    "sugar": 0.0037
+  }
+}, {
+  "name": "Edamame",
+  "description": "Boiled soybeans with salt",
+  "image": "edamame.jpg",
+  "price": 4,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Miso Soup",
+  "description": "Soybean soup with Wacame seaweed, tofu and spring onion.",
+  "image": "miso-soup.jpg",
+  "price": 4,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Maguro",
+  "description": "Tuna pieces.",
+  "image": "maguro.jpg",
+  "price": 12.5,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Shake",
+  "description": "",
+  "image": "shake.jpg",
+  "price": 10,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Shiromi",
+  "description": "White fish pieces.",
+  "image": "shiromi.jpg",
+  "price": 9.5,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Tekka Maki",
+  "description": "Tuna roll with wasabi - 6 pieces.",
+  "image": "tekka-maki.jpg",
+  "price": 6,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Hosomaki Mix",
+  "description": "18 pieces.",
+  "image": "hosomaki-mix.jpg",
+  "price": 17,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "California Roll",
+  "description": "Crab sticks, avocado and cucumber - 8 pieces.",
+  "image": "california-roll.jpg",
+  "price": 7.75,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Seattle Roll",
+  "description": "Smoked salmon, cucumber, and cream cheese.",
+  "image": "seattle-roll.jpg",
+  "price": 8,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Spicy Tuna Roll",
+  "description": "Spicy tuna, spring onion and avocado - 6 pieces.",
+  "image": "spicy-tuna-roll.jpg",
+  "price": 6,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Ebi Roll",
+  "description": "King prawns, avocado and asparagus - 8 pieces.",
+  "image": "ebi-roll.jpg",
+  "price": 12.5,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Chicken Teriyaki",
+  "description": "sautéed chicken with teriyaki sauce.",
+  "image": "chicken-teriyaki.jpg",
+  "price": 12,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Salmon Teriyaki",
+  "description": "sautéed salmon with teriyaki sauce.",
+  "image": "salmon-teriyaki.jpg",
+  "price": 13.5,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Gohan",
+  "description": "Steamed rice.",
+  "image": "gohan.jpg",
+  "price": 3,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Tori Katsu",
+  "description": "Pan-fried chicken breast with yasai salad.",
+  "image": "tori-katsu.jpg",
+  "price": 11,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}, {
+  "name": "Yaki Udon",
+  "description": "Udon noodles with chicken, king prawns and vegetables.",
+  "image": "yaki-udon.jpg",
+  "price": 11.5,
+  "nutrition": {
+    "protein": 2.3138,
+    "fat": 0.6041,
+    "carbohydrates": 0.6041,
+    "energy": 7.5314,
+    "sugar": 0.3114
+  }
+}]

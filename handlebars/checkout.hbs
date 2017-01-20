@@ -1,0 +1,36 @@
+<div id='checkout_background_top'></div>
+<div id='checkout_content'>
+  <h1>Order Details</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each products}}
+      <tr data-id='{{id}}'>
+        <td>
+          <div><img src='/images/{{image}}'></div>
+          <span class='product_name'>{{name}}</span>
+        </td>
+        <td>
+          <input type='number' value='{{quantity}}' min='0'></input>
+        </td>
+        <td>
+          <p>${{formatPrice price}}</p>
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+  <p id='total_checkout'>
+    <span>total:</span>
+    <span>${{formatPrice total}}</span>
+  </p>
+  <a class='cancel' href='#'>Cancel Order</a>
+  <button class='order'>Order now!</button>
+</div>
+<div id='checkout_background_bottom'></div>

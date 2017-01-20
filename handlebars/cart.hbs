@@ -1,0 +1,18 @@
+{{#if quantity}}
+<div id='cart_popup'>
+  <ul id='cart_contents'>
+    {{#each products}}
+    <li data-id='{{id}}'>
+      <a><img src='/images/{{image}}'></a>
+      <span>{{quantity}}x${{formatPrice price}}</span>
+    </li>
+    {{/each}}
+  </ul>
+  <div id='cart_summary'>
+    <h3>Your<br>shopping cart</h3>
+    <p>${{formatPrice total}}</p>
+    <a class='empty' href='#'>Empty cart</a>
+    <a class='checkout' href='/checkout'>Checkout</a>
+  </div>
+</div>
+{{/if}}

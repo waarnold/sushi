@@ -1,0 +1,28 @@
+include /_mixins
+
+doctype html
+html
+  head
+    title= title
+    link(href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet')
+    +stylesheet_link_tag('application')
+    +javascript_include_tag('vendor/all')
+    +javascript_include_tag('handlebars_templates')
+  body
+    header
+      a(href='/')
+        h1
+      a#cart(href='#')
+    main
+      block content
+    footer
+      p Learn more about Kendo UI<sup>®</sup> SPA at <a href='http://docs.telerik.com/kendo-ui/framework/spa/overview'>docs.telerik.com/kendo-ui</a>.
+      p Copyright © 2016, Progress Software Corporation and/or its subsidiaries or affiliates. All Rights Reserved.
+    +javascript_include_tag('application')
+    +javascript_include_tag('models/product')
+    +javascript_include_tag('collections/products', 'collections/cart')
+    +javascript_include_tag('views/products', 'views/detailed', 'views/cart', 'views/checkout', 'views/header')
+    script(type='text/javascript').
+      App.products = new Products(!{JSON.stringify(menu)});
+      App.init();
+    +javascript_include_tag('router')
